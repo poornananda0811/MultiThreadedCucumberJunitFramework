@@ -1,0 +1,192 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6866733100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs.SetUp(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "I want to navigate to google",
+        "description": "",
+        "id": "navigate-to-the-google.com;i-want-to-navigate-to-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Opened the Browser with URL: https://www.Google.com/"
+            ],
+            "result": {
+              "duration": 2896331900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the Browser and Navigate to the URL \"https://www.Google.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.Google.com/\"",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefs.i_open_the_Browser_and_Navigate_to_the_URL(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1458790100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefs.attach_screenshot()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Entered text Hello"
+            ],
+            "result": {
+              "duration": 301145300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the text in search field",
+            "match": {
+              "location": "StepDefs.user_enters_the_text_in_search_field()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 212088500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefs.attach_screenshot()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@firsttest"
+          }
+        ]
+      }
+    ],
+    "name": "Navigate to the Google.com",
+    "description": "  Navigate to the Google.com",
+    "id": "navigate-to-the-google.com",
+    "keyword": "Feature",
+    "uri": "features/FeatureFile1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6036134300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs.SetUp(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "I want to navigate to amazon",
+        "description": "",
+        "id": "navigate-to-the-amazon.in;i-want-to-navigate-to-amazon",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Opened the Browser with URL: https://www.amazon.in/"
+            ],
+            "result": {
+              "duration": 8917079200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the Browser and Navigate to the URL \"https://www.amazon.in/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.amazon.in/\"",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefs.i_open_the_Browser_and_Navigate_to_the_URL(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 759418500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefs.attach_screenshot()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "User clicks on Orders link"
+            ],
+            "result": {
+              "duration": 2756509800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on the link",
+            "match": {
+              "location": "StepDefs.user_clicks_on_the_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 386960000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefs.attach_screenshot()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@firsttest"
+          }
+        ]
+      }
+    ],
+    "name": "Navigate to the amazon.in",
+    "description": "  Navigate to the amazon.in",
+    "id": "navigate-to-the-amazon.in",
+    "keyword": "Feature",
+    "uri": "features/FeatureFile2.feature",
+    "tags": []
+  }
+]
